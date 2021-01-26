@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.mainApp{
+    margin-bottom: 200%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+ul li{
+    list-style: none;
+    
+}
+
