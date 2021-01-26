@@ -50,7 +50,8 @@ class Navbar extends Component {
                <section className='info__main'>
                    <div className='info__1'>
                        <h1>Playstation-Virtual reality</h1>
-                       <h2>30-day free trial</h2>
+                       <h2>30-day free trial Now</h2>
+                       <p>No Credit Card</p>
                        <p>With up to 40 hours of battery life, Playstation-VR is your perfect everyday VR. With Fast Charging, a 5-minute charge gives you 3 hours of playback</p>
                        <a href='' className='btn btn-warning free__btn'>GET FOR FREE</a>
                    </div>
