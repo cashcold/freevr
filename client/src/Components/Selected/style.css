@@ -4,7 +4,7 @@
 }
 .vr__image img{
     width: 80%;
-     background-image: linear-gradient(to right, #239fec 0%, rgb(190, 28, 28) 100%);
+    filter: brightness(0.5);
 }
 .product__A{
     display: grid;
@@ -29,6 +29,7 @@
 }
 
 @media screen and (max-width: 860px){
+   
     .vr__image img{
         width: 100%;
     }
@@ -45,5 +46,14 @@
     .product__info{
         width: 100%;
         min-height: 50vh;
+    }
+    .product__1 h1{
+        font-size: 1.5rem;
+    }
+    .product__1 h3{
+        font-size: 0.8rem;
+    }
+    .product__1 h4{
+        font-size: 0.7rem;
     }
 }

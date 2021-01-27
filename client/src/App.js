@@ -12,8 +12,9 @@ class MainApp extends Component {
     }
     render() { 
         return ( 
+            // animate__animated animate__zoomIn 
             <Router>
-                <div className=' mainApp animate__animated animate__zoomIn animate__slower'>
+                <div className=' mainApp '>
                         <div className='wrapper'>
                             <Navbar/>
                             <div className='switch'>

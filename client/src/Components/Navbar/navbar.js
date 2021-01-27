@@ -34,10 +34,10 @@ class Navbar extends Component {
                        <div className='nav__links animate__animated animate__slower animate__bounceInDown'>
                            <ul>
                                <li><a href=''>HOME</a></li>
-                               <li><a href=''>SERVICE</a></li>
-                               <li><a href=''>TENDING</a></li>
-                                <a href='' className='btn btn-warning'>Login</a> 
-                                <a href='' className='btn btn-danger'>Register</a> 
+                               <li><a href=''> FREE TRIAL</a></li>
+                               <li><a href=''>BECOME OUR AGENT</a></li>
+                                <a href='' className='btn btn-warning login__btn'>Login</a> 
+                                <a href='' className='btn btn-danger'>Join-us</a> 
                            </ul>
                        </div>
                      </nav>
@@ -50,9 +50,8 @@ class Navbar extends Component {
                <section className='info__main'>
                    <div className='info__1'>
                        <h1>Playstation-Virtual reality</h1>
-                       <h2>30-day free trial Now</h2>
+                       <h2>30-day free trial </h2>
                        <p>No Credit Card</p>
-                       <p>With up to 40 hours of battery life, Playstation-VR is your perfect everyday VR. With Fast Charging, a 5-minute charge gives you 3 hours of playback</p>
                        <a href='' className='btn btn-warning free__btn'>GET FOR FREE</a>
                    </div>
                </section>
