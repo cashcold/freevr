@@ -28,31 +28,33 @@ class Navbar extends Component {
             <div className=' navbarMain'>
                <section className='navMain'>
                    <nav>
-                       <div className='logoImg'>
-                         <h1><i class="fas fa-american-sign-language-interpreting"></i> NEXT-STEP</h1>
+                       <div className='logoImg animate__animated animate__slower animate__flash'>
+                         <h1><i class="fas fa-cart-plus  "></i> SHOP-NEXT</h1>
                        </div>
                        <div className='nav__links animate__animated animate__slower animate__bounceInDown'>
-                           <ul>
-                               <li><a href=''>HOME</a></li>
-                               <li><a href=''> FREE TRIAL</a></li>
-                               <li><a href=''>BECOME OUR AGENT</a></li>
-                                <a href='' className='btn btn-warning login__btn'>Login</a> 
-                                <a href='' className='btn btn-danger'>Join-us</a> 
+                           <ul className='links'>
+                               <li><a href=''><i class="fa fa-home"> </i>HOME</a></li>
+                               <li><a href=''><i class="fas fa-hand-point-up"></i> FREE TRIAL</a></li>
+                               <li><a href=''><i class="fas fa-address-card"></i> BECOME OUR AGENT</a></li>
+                                <a href='' className='btn btn-warning login__btn btn__classic animate__animated animate__slower animate__slideInLeft'>Login <i class="fas fa-sign-in-alt"></i></a> 
+                                <a href='' className='btn btn-success btn__classic animate__animated animate__slower animate__slideInRight'><i class="fas fa-door-open"></i> Join-us</a> 
                            </ul>
                        </div>
                      </nav>
-                     <div className='toggle__bar'>
-                           <div className='toggle'></div>
-                           <div className='toggle'></div>
-                           <div className='toggle'></div>
-                       </div>
+                     <div className='aboyt__toggle '>
+                        <div className='toggle__bar animate__animated animate__slower animate__zoomInDown'>
+                            <div className='toggle'></div>
+                            <div className='toggle'></div>
+                            <div className='toggle'></div>
+                        </div>
+                     </div>
+                     
                </section>
                <section className='info__main'>
-                   <div className='info__1'>
+                   <div className='info__1  animate__animated animate__faster animate__flip'>
                        <h1>Playstation-Virtual reality</h1>
                        <h2>30-day free trial </h2>
-                       <p>No Credit Card</p>
-                       <a href='' className='btn btn-warning free__btn'>GET FOR FREE</a>
+                       <a href='' className='btn btn-warning free__btn  animate__animated animate__slower animate__tada'>Read More <i class="fas fa-arrow-circle-right"></i></a>
                    </div>
                </section>
             </div>

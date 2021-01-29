@@ -6,12 +6,12 @@
 }
 
 .mainApp{
-    margin-bottom: 200%;
+    margin-bottom: 300%;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
 }
 ul li{
     list-style: none;
@@ -23,4 +23,24 @@ h1{
 }
 h2,h3,h4,h5,p,a{
     font-family: 'Aleo', serif;
+}
+
+
+@media screen and (max-width: 220px){
+   
+}
+@media screen and (max-width: 414px){
+
+    h1{
+        font-size: 1rem;
+    }
+     h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 768px){
+
 }

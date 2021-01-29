@@ -1,59 +1,111 @@
-.product__info{
+.sharpDiv__game__web{
+    display: none;
+}
+.game__A__text_img img{
     width: 100%;
-    min-height: 70vh;
-}
-.vr__image img{
-    width: 80%;
-    filter: brightness(0.5);
-}
-.product__A{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 2rem 2rem;
-}
-.product__1{
-    margin: 10px 0;
-}
-.product__1 h1{
-    font-size: 3rem;
-    background-color: #F82D4A;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #239fec 0%, rgb(190, 28, 28) 100%);
-}
-.product__1 p{
-    line-height: 1.5rem;
-    font-size: 1rem;
+    filter: brightness(0.8);
 }
 
-@media screen and (max-width: 860px){
-   
-    .vr__image img{
+.game__ads{
+    padding: 10rem 4rem;
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    /* position: absolute; */
+
+}
+.game__item__A{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    color: white;
+}
+.new_game img{
+    width: 100%;
+}
+@media screen and (max-width: 220px){
+   .sharpDiv__game__web{
+       display: none;
+   }
+    .game__ads{
+        padding: 4rem 2rem;
         width: 100%;
-    }
-    .product__A{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        padding: 1rem 2rem;
-    }
-    .info__btn{
-        display: block;
+        min-height: 80vh;
+        background-color: black;
         color: white;
-        padding: 1rem 3rem;
+        position: absolute;
+    
     }
-    .product__info{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+@media screen and (max-width: 414px){
+    .sharpDiv__game__web{
+        display: none;
+    }
+    .game__ads{
+        padding: 4rem 3rem;
         width: 100%;
-        min-height: 50vh;
+        min-height: 80vh;
+        background-color: black;
+        color: white;
+        position: absolute;
+    
     }
-    .product__1 h1{
-        font-size: 1.5rem;
-    }
-    .product__1 h3{
-        font-size: 0.8rem;
-    }
-    .product__1 h4{
-        font-size: 0.7rem;
-    }
+}
+@media screen and (max-width: 768px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-shape-divider-bottom-1611932898 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1611932898 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 480px;
+}
+
+.custom-shape-divider-bottom-1611932898 .shape-fill {
+    fill: #91a8be;
 }

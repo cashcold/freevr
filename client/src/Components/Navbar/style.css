@@ -1,243 +1,186 @@
 .navbarMain{
+    padding: 2rem 10%;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-image: url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');; */
+
+}
+.btn__classic{
+    color: white;
 }
 
-.toggle__bar div{
-    width: 30px;
-    height: 5px;
-    background-color: red;
-    margin: 5px 0;
+a{
+    color: white;
 }
-.toggle__bar{
-    display: none;
-}
-.navMain{
-    padding-top: 10px;
+.links i{
+    color: red;
 }
 .navMain nav{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 0px;
-    padding: 0 5rem;
+    justify-content: space-evenly;
 }
-
 .nav__links ul{
     display: grid;
-    grid-template-columns: repeat(7,1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
 }
-.nav__links ul a{
-    text-decoration: none;
-    display: block;
-    padding: 1rem 3rem;
-    color: white;
-    font-size: bold;
+.toggle__bar div{
+    background-color: red;
+    width: 30px;
+    height: 5px;
+    margin: 2px 0;
+}
+.navMain{
+    display: flex;
+}
+.toggle__bar{
+    display: none;
 }
 .logoImg h1{
-    background-color: #F82D4A;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    background-image: linear-gradient(to bottom, #239fec 0%, rgb(190, 28, 28) 100%);
+    color: white;
 }
-.info__1 h1{
-    background-color: #F82D4A;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #54B1EB 0%, white 100%);
+.logoImg h1 i{
+   
+    color: #C82333;
 }
-.info__1 h2{
-    background-color: #F82D4A;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #54B1EB 0%, white 100%);
-}
-.info__1{
-    width: 40%;
-    height: 40vh;
-    
-}
+/* Adding info__main */
+
 .info__main{
-    margin: 60px 60px;
-    
+    margin: 120px 0;
+    color: white;
+  
 }
-.info__1 p{
-    margin-top: 10px;
-    font-size: larger;
-    line-height: 2rem;
-    font-size: 1.5rem;
-    width: 80%;
+.info__1 a{
+    align-items: center;
 }
 
-.free__btn{
-    margin-top: 30px;
-    display: block;
-    width: 60%;
-    padding: 1rem 2rem;
-}
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 220px){
     h1{
-        font-size: 1.5rem;
-    }
-    h2{
         font-size: 1rem;
     }
-    
-   
-
+     h2{
+        font-size: 0.7rem;
+    }
+    p{
+        /* font-size: 0.1rem; */
+        display: none;
+    }
+    .info__main{
+        margin: 5px 0;
+        color: white;
+      
+    }
     .navbarMain{
+        padding: 1rem 8%;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         background-image: url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        /* background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-        url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');; */
-    }
     
-    .toggle__bar{
-        display: block;
+    }
+    .logoImg h1{
+        font-size: 0.8rem;
+    }
+    .navbarMain{
+        padding: 1rem 5%;
+    
+    }
+    .navMain nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-evenly;
     }
     .nav__links ul{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-gap: 20px;
-        position: absolute;
-        left: 10%;
+        grid-gap: 5px;
     }
-    .nav__links{
-        margin-left: 30px;
-    }
-    .nav__links{
-        margin-top: 90px;
-    }
-    .logoImg h1{
-        width: 200px;
-        font-size: 2rem;
-        font-size: bolder;
-        background-color: #F82D4A;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        background-image: linear-gradient(to left, #239fec 0%, rgb(190, 28, 28) 100%);
-        position: absolute;
-    }
-    .nav__links ul a{
-        text-decoration: none;
+    .toggle__bar{
         display: block;
-        padding: 1rem 5rem;
-        color: white;
-        font-size: bold;
-        background-color: #4b45a1;
-    }
-    
-    .navMain{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 150px;
     }
     .nav__links{
         display: none;
     }
-    .info__1{
-        width: 100%;
-        height: 40vh;
-        
+    .info__1 h1,h2{
+        color: red;
     }
-    .info__main{
-        margin: 70px 30px;
-        
-    }
-    .info__1 p{
-        margin-top: 10px;
-        line-height: 1.5rem;
-        font-size: 1rem;
-        width: 100%;
-    }
-    
-    .free__btn{
-        margin-top: 30px;
-        display: block;
-        width: 100%;
-        padding: 1rem 2rem;
-        color: white;
-    }
-    .info__1 h1{
-        font-size: 2rem;
-        background-color: white;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        background-image: linear-gradient(to right, #ff0000 0%, rgb(17, 0, 255) 100%);
-        /* filter: brightness(0.6); */
-    }
-   
     
 }
 
 
 
+@media screen and (max-width: 414px){
+    h1{
+        font-size: 1rem;
+    }
+     h2{
+        font-size: 0.8rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .info__main{
+        margin: 70px 0;
+        color: white;
+      
+    }
+    .navbarMain{
+        padding: 1rem 8%;
+        width: 100%;
+        min-height: 80vh;
+        background-image: url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .navMain nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-evenly;
+    }
+    .nav__links ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 11px;
+    }
+    .toggle__bar{
+        display: block;
+    }
+    .nav__links{
+        display: none;
+    }
+    .info__1 h1,h2{
+        color: red;
+    }
+    
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* movies: [
-    {
-        id: 17783,
-        name: 'The Throw Of Earth',
-        price: "$50"
-    },
-    {
-        id: 6981,
-        name: 'The Return Of The Earth',
-        price: "$100"
-    },
-    {
-        id: 7711,
-        name: 'The Secruty of  Success ',
-        price: "$150"
-    },
-] */
+@media screen and (max-width: 768px){
+    .navbarMain{
+        padding: 2rem 7%;
+        width: 100%;
+        height: 70vh;
+        background-image: url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .info__main{
+        margin: 40px 0;
+        color: white;
+      
+    }
+    .info__1 h1,h2{
+        color: red;
+    }
+}
